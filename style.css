@@ -6,12 +6,15 @@
     box-sizing: border-box;
 }
 
+.for_background {
+    background-color: rgb(116, 198, 157);
+}
+
 .container {
     max-width: 1440px;
     margin: auto;
     padding-left: 133px;
     padding-right: 132px;
-    background-color: rgb(116, 198, 157);
 }
 
 header {
