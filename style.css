@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding-left: 133px;
+    padding-right: 132px;
+    background-color: rgb(116, 198, 157);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    text-align: right;
+    text-decoration: none;
+}
+
+.a1 {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    text-align: right;
+    text-decoration: none;
+}
+
+.start_h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 125%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.header_main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lorem_div1 {
+    margin-top: 43px;
+    margin-bottom: 68.5px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-align: left;
+    text-transform: uppercase;  
+}
+
+.lorem01 {
+    color: rgb(255, 255, 255);
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.lorem02 {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 10px 47px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.explore {
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.big_photo {
+    margin-left: auto;
+    width: 644.28px;
+    margin-bottom: 25px;
+}
+
+/* ---2--- */
+
+.container01 {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 74.5px;
+    margin-bottom: 52px;
+    padding-left: 133px;
+    padding-right: 132px;
+    text-align: center;
+}
+
+.partners {
+    color: rgb(116, 198, 157);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.lorem03 {
+    color: rgb(0, 0, 0);
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.lorem04 {
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.logos {
+    display: flex;
+    width: 100%;
+    gap: 68px;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    flex-wrap: wrap;
+}
+
+.learn_more {
+    padding: 12px 29px;
+    background-color: black;
+}
+
+.learn_more_link {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    }
+
+    /* ---3--- */
+
+    .container02 {
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 74.5px;
+        margin-bottom: 52px;
+        padding-left: 133px;
+        padding-right: 132px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .lorem05_div {
+        max-width: 480px;
+        text-align: end;
+        padding: 88.63px 0;
+    }
+
+    .lorem05 {
+    color: rgb(33, 37, 41);
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 16px;
+    }
+
+    .lorem06 {
+    color: rgba(33, 37, 41, 0.5);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: left;
+    }
+
+    /* ---4--- */
+
+    .container03 {
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 74.5px;
+        margin-bottom: 52px;
+        padding-left: 133px;
+        padding-right: 132px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 105px;
+    }
+
+    .container04 {
+        max-width: 1440px;
+        margin: auto;
+        margin-top: 74.5px;
+        margin-bottom: 52px;
+        padding-left: 133px;
+        padding-right: 132px;
+        flex-wrap: wrap;
+        margin-bottom: 105px;
+    }
+
+    .pictures {
+        width: 100%;
+        margin-top: 74px;
+        margin-bottom: 122px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .pic {
+        width: 252px;
+        border-radius: 5px;
+        box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+        background: rgb(255, 255, 255);
+        padding: 0 40px 0 40px;
+        flex-wrap: wrap;
+    }
+
+    .rasm {
+        margin: 20px 0 19px 0;
+    }
+
+    .ism {
+        color: rgb(33, 37, 41);
+        font-family: Crimson Text;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 125%;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 17px;
+    }
+
+    .job {
+        color: rgba(33, 37, 41, 0.75);
+        font-family: Work Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 19px;
+    }
+
+    footer {
+        padding: 51px 131px 42px 131px;
+        background: rgb(116, 198, 157);
+        max-width: 1440px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logos2 {
+        display: flex;
+        gap: 20px;
+    }
