@@ -215,7 +215,7 @@ button {
 
     .lorem05_div {
         max-width: 480px;
-        text-align: end;
+        /* text-align: end; */
         padding: 88.63px 0;
     }
 
@@ -322,4 +322,10 @@ button {
     .logos2 {
         display: flex;
         gap: 20px;
+    }
+
+    .learn_more_more {
+        padding: 12px 29px;
+        background-color: black;
+        margin-top: 25px;
     }
